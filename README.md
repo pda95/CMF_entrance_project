@@ -1,16 +1,16 @@
-###Dataset Description:
+### Dataset Description:
 This dataset is an augmented Chinese stock market dataset that includes not only OHLC prices and volume data, but also some other financial ratios at daily frequency, like PE, PB, PS ratio, dividend yield, and etc. The covered period is from Jan 4th, 2005, to May 11th, 2022.
 All data are available at "daily frequency", including FRs (financial ratios) like PE ratio and some fundamentals like total market cap, etc.
 It takes sufficiently large amount of time to gather information/data about all liquid and publicly traded stocks on Shanghai Stock Exchange and Shenzhen Stock Exchange (a total of 4714 stocks, as identified by their ticker symbols).
 
-Full description of the dataset:
+** Full description of the dataset: **
 https://www.kaggle.com/datasets/franciscofeng/augmented-china-stock-data-with-fundamentals
 
 
-###Task: 
+### Task: 
 We should implement an algorithmic strategy on data of Chinese companies 
 
-###Dataset Attributes:
+### Dataset Attributes:
 **stock_data.csv**:
 The "open", "close", "high" & "low" are adjusted stock prices (keeping the latest stock prices unchanged and adjusting the stock prices back into the past). The adjustment factor is "qfq_factor" in this dataset.
 Prices are adjusted for consistency reasons, and mostly used for designing and backtesting quantitative trading strategies of any kind.
